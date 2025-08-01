@@ -1,0 +1,53 @@
+main {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gold;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: white;
+  max-width: 23rem;
+  box-shadow: 10px 10px black;
+}
+
+.header-img {
+  border-radius: 15px;
+  width: 100%;
+  /* max-height: 200px; */
+  /* object-fit: contain; */
+}
+
+.tag {
+  padding: 10px;
+  background-color: gold;
+  width: fit-content;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.content {
+  line-height: 25px;
+  color: rgb(125, 124, 124);
+  font-weight: 600;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.profileImage {
+  border-radius: 100%;max-height: 50px;
+}
